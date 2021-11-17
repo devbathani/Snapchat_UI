@@ -13,6 +13,8 @@ class Appbar extends StatelessWidget {
           height: screenH * 0.05,
           width: screenW * 0.11,
           decoration: BoxDecoration(
+            image: const DecorationImage(
+                image: AssetImage('profile/snap_1.png'), fit: BoxFit.cover),
             color: Colors.grey[200],
             borderRadius: BorderRadius.circular(screenW / 15),
           ),
